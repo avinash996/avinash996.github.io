@@ -3,15 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "keyword" content = "Avinash Computer Science Java Full Stack Developer">
+    <meta name = "Description" content = "This is a Profile page of Avinash">
+    <meta name = "author" content  = "Avinash">
+    <meta http-equiv = "refresh" content="10" url = "http://localhost:8080/Profile">
+    <meta name = "robots" content = "index, follow">
     <title>Document</title>
+    <link rel = "stylesheet" href = "Assets/css/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>hi im avinash</p>
-    <p>hi im avinash</p>
-    <h1>Hello World</h1>
-    <p>hi im avinash</p>
-    <p>hi im avinash</p>
+    <header>
+        <h1>Avinash Profile</h1>
+    </header>
+    <main>
+        <!-- Personal Information -->
+         <section>
+            <h2>Personal Information</h2>
+            <img src="Assets/images/image1.jpg" alt="">
+            <p><strong>Name: </strong>Avinash</p>
+            <p><strong>Branch: </strong>B.E. Computer Science and Engineering</p>
+            <p><strong>College: </strong>MallaReddy University</p>
+        </section>
+        <section>
+            <h2>Academic Performance</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Subjects</th>
+                        <th>SGPA</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>1st</th>
+                        <th>Maths, Full Stack Development, Ui, Python Programming, English</th>
+                        <th>8.7</th>
+                    </tr>
+                    <tr>
+                        <th>2nd</th>
+                        <th>BEEE, Applied Physics, Java Development, Server Programming, Ui Frameworks</th>
+                        <th>8.8</th>
+                    </tr>
+                    <tr>
+                        <th>3rd</th>
+                        <th>Datastructures, DV, OS, CN</th>
+                        <th>8.9</th>
+                    </tr>
+                    <tr>
+                        <th>4th</th>
+                        <th>P&S, OOSE, ADS, CS, COA  </th>
+                        <th> </th>
+                    </tr>
+                    <tr>
+                        <th>5th</th>
+                        <th>Java Full Stack </th>
+                        <th> </th>
+                    </tr>
+                    </thead>
+                    </table>
+                </section>
+                    <section>
+                        <h2>Technical Skills</h2>
+                        <ul>
+                            <li><strong>Operating System: </strong>Windows, linux</li>
+                            <li><strong>Language: </strong>Java,Python</li>
+                            <li><strong>Frontend: </strong>HTML, CSS, JavaScript</li>
+                            <li><strong>Frontend Framework: </strong>Angular.js, React.js, vue.js</li>
+                            <li><strong>Server Languages:</strong>Spring, SpringBoot</li>
+                            <li><strong>DBMS:</strong>Mysql, Oracle, SQL, MongoDB</li>
+                        </ul>
+                    </section>
+                    <!-- Hobbies and Intrests -->
+                     <section>
+                        <h2>Hobbies and Intrests</h2>
+                        <ol>
+                            <li>Coding Challenges (LeetCode, HackerRank)</li>
+                            <li> UI/UX Design</li>
+                            <li>Watching Movies</li>
+                            <li>Learning skills</li>
+                        </ol>
+                     </section>
+                     <section>
+                        <h2>Contact Me</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="email"><strong>Email</strong></label>
+                                <input type="text" name = "email" id="email">
+                            </div>
+                        
+                        <div class = "form-group">
+                            <label for="callbackdate"><strong>when to call back</strong></label>
+                            <input type="datetime-local" name = "callbackdate" id="callbackdate">
+                        </div>
+                        <div class = "form-group">
+                            <label for="contactnumber"><strong>Contact Number</strong></label>
+                            <input type="text" name="contactnumber" id="contactnumber">
+
+                        </div>
+                        <div class = "form-group">
+                            <label for="description"><strong>description</strong></label>
+                            <textarea name="description" id="description" rows="5"></textarea>
+                        </div>
+                        <div class = "form-group">
+                            <label for="linkedin"><strong>LinkedIn Profile url</strong></label>
+                            <input type="url" name="linkedin" id="linkedin">
+
+                        </div>
+                        <div class = "form-group">
+                            <input type="submit" id="submit">
+
+                        </div>
+                        
+                       
+                     </section>
+    </main>
 
     
 </body>
